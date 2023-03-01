@@ -1,8 +1,17 @@
 *{
     margin :0;
     padding :0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
     font-family: 'Arial','Helvetica','sans-serif';
     box-sizing : border-box;
+}
+
+.body{
+    height:100%;
+    width:100%;
+    overflow:hidden;
 }
 
 .header{
@@ -75,18 +84,17 @@ img.humg {
 }
 
 .column {
-    float: left;
     width: 25%;
     color: rgb(203, 203, 203);
     padding: 25px;
-    
+    align-items: center;
 }
 
 .column2 {
-    float: left;
+    align-items: center;
     width: 33.3%;
     color: rgb(203, 203, 203);
-    padding: 15px;
+    padding: 25px;
     
 }
   
