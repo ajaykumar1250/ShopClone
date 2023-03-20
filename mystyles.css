@@ -139,7 +139,7 @@ h2{
 
 .card-left{
     width: 100%;
-    padding: 10%;
+    padding: 7%;
     background: url("https://shop.se.com/media/wysiwyg/P5_lifestyleimage1_FR_1.png");
     background-size:cover;
     border: 1px solid #ccc;
@@ -148,7 +148,7 @@ h2{
 
 .card-right{
     width: 100%;
-    padding: 10%;
+    padding: 7%;
     background: url("https://shop.se.com/media/wysiwyg/P5_lifestyleimage2_phone_FR.jpg");
     background-size: cover;
     border: 1px solid #ccc;
@@ -158,7 +158,7 @@ h2{
 
 .card-lefttwo{
     width: 100%;
-    padding: 10%;
+    padding: 7%;
     background: url("https://shop.se.com/media/wysiwyg/P5_lifestyleimage6_mobile_1.png");
     background-size:cover;
     border: 1px solid #ccc;
@@ -167,7 +167,7 @@ h2{
 
 .card-righttwo{
     width: 100%;
-    padding: 10%;
+    padding: 7%;
     background: url("https://shop.se.com/media/wysiwyg/P5_lifestyleimage3_phone_FR.png");
     background-size: cover;
     border: 1px solid #ccc;
@@ -202,9 +202,11 @@ h2{
     line-height: 2.5rem;
     font-size: 1.6rem;
     font-weight: 400;
-
-
-
-
 }
 
+#c3{
+    color: #fff;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
