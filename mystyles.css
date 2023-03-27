@@ -80,7 +80,6 @@ img.humg {
     background-color: #42b4e6;
     margin: 0 10px 10px 0;      
     padding: 14px 17px;
-    border-color: rgb(51, 51, 51);
 }
 
 .column {
@@ -154,7 +153,6 @@ h2{
 
 .card-body{
     padding: 30px 20px;
-    font-size: 18px;
 
 }
 
@@ -176,7 +174,7 @@ h2{
 .c2{
     color: #fff;
     line-height: 2.5rem;
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -189,7 +187,7 @@ h2{
 
 .card-lifestyleimage1{
     background: url("https://shop.se.com/media/wysiwyg/P5_lifestyleimage1_FR_1.png");
-    background-size:cover;
+    background-size: cover;
 }
 
 .card-lifestyleimage2{
@@ -205,4 +203,37 @@ h2{
 .card-lifestyleimage4{
     background: url("https://shop.se.com/media/wysiwyg/P5_lifestyleimage3_phone_FR.png");
     background-size: cover;
+}
+
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    z-index: 99;
+    
+}
+
+  
+  #loading-image {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 100;
+  } 
+
+
+  @keyframes fadeIn {
+    0% { opacity: 1; display: none}
+    100% { opacity: 0; }
+  }
+
+
+@media (min-width: 300px) and (max-width:900px ){
+    *{
+        display: inline-flexbox;
+    }
 }

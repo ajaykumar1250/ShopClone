@@ -6,6 +6,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id="loading">
+    <img id="loading-image" src="https://static.india.com/wp-content/uploads/2014/07/ajax-loader.gif" alt="Loading..." />
+</div>  
+        
+
 
 <div class="header">
     <nav>
@@ -63,7 +68,7 @@
     <div class="card-right card-lifestyleimage4">
         <!-- <div class="card-body"> -->
                 <h1 class="c1">Votre maison est-elle compatible avec Wiser</h1>
-                <p class="c3">Prenez le temps de bien vous en avant d’acheter Wiser</p>
+                <p class="c2">Prenez le temps de bien vous en avant d’acheter Wiser</p>
                 <button name="button" type="button" class="card-button">En savoir plus</button> 
         <!-- </div> -->
     </div> 
@@ -145,5 +150,10 @@
         <li><a href ="">2022 @Schneider Electric</a></li>
     </ul>
 </nav>
+
+<script>
+window.onload = function(){ document.getElementById("loading").style.display = "none" }
+</script>
+
 </body>
 </html>
